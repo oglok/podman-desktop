@@ -433,7 +433,7 @@ Example:
 2. Look under `initColors()` and pick `this.initButton()` and scroll down to `protected initButton()`.
 3. Pick a color. I want to use the the "primary" button. So I will pick: `${button}primary-bg`.
 4. Scroll up and note the `const` below `protected initButton()` which is `const button = 'button-';`
-5. The color can be referenced with `[var(--pd-button-primary-bg)]`. The `[var(--pd-` portion will always be consistent when refering to a color variable.
+5. The color can be referenced with `[var(--pd-button-primary-bg)]`. The `[var(--pd-` portion will always be consistent when referring to a color variable.
 6. For example:
 
 ```ts
